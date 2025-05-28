@@ -60,6 +60,14 @@ namespace Informatyka_Zajecia_IV
             Console.WriteLine($"{c} x {d} = {c * d}");
             Console.WriteLine($"{c} / {d} = {c / d}");
             Console.WriteLine($"{c} modulo {d} = {c % d}");
+
+            // 8. Multiplication Table
+            Console.WriteLine("ZADANIE 8.");
+            int num = 1;
+            for (int i = 0; i <= 10; i++)
+            {
+                Console.WriteLine($"{num} * {i} = {num * i}");
+            }
         }
     }
 }
