@@ -68,6 +68,15 @@ namespace Informatyka_Zajecia_IV
             {
                 Console.WriteLine($"{num} * {i} = {num * i}");
             }
+
+            // 9. Average of Four Numbers
+            Console.WriteLine("ZADANIE 9.");
+            int n1 = 1;
+            int n2 = 2;
+            int n3 = 3;
+            int n4 = 4;
+            double avg = (n1 + n2 + n3 + n4) / 4.0;
+            Console.WriteLine($"The average of {n1}, {n2}, {n3}, {n4} is: {avg}");
         }
     }
 }
