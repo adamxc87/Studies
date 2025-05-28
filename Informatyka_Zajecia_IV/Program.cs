@@ -42,6 +42,14 @@ namespace Informatyka_Zajecia_IV
             Console.WriteLine("After Swapping:");
             Console.WriteLine("First Number: " + a);
             Console.WriteLine("Second Number: " + b);
+
+            // 6. Multiply Three Numbers;
+            Console.WriteLine("ZADANIE 6.");
+            int num1 = 2;
+            int num2 = 4;
+            int num3 = 10;
+            int resultOfMultiply = num1 * num2 * num3;
+            Console.WriteLine($"{num1} x {num2} x {num3} = {resultOfMultiply}");
         }
     }
 }
