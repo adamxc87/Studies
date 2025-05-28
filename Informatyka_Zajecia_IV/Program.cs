@@ -17,6 +17,12 @@ namespace Informatyka_Zajecia_IV
             int sum = 5 + 7;
             Console.WriteLine($"SUM: {sum}");
             Console.WriteLine();
+
+            // 3. Divide Two Numbers
+            Console.WriteLine("ZADANIE 3.");
+            int result = 12 / 2;
+            Console.WriteLine($"SUM: {result}");
+            Console.WriteLine();
         }
     }
 }
