@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Informatyka_Zajecia_IV
 {
@@ -10,6 +6,11 @@ namespace Informatyka_Zajecia_IV
     {
         static void Main(string[] args)
         {
+            // 1. Print Hello and Name
+            Console.WriteLine("ZADANIE 1.");
+            Console.WriteLine("Hello");
+            Console.WriteLine("Adam");
+            Console.WriteLine();
         }
     }
 }
