@@ -50,6 +50,16 @@ namespace Informatyka_Zajecia_IV
             int num3 = 10;
             int resultOfMultiply = num1 * num2 * num3;
             Console.WriteLine($"{num1} x {num2} x {num3} = {resultOfMultiply}");
+
+            // 7. Arithmetic Operations
+            Console.WriteLine("ZADANIE 7.");
+            int c = 2;
+            int d = 5;
+            Console.WriteLine($"{c} + {d} = {c + d}");
+            Console.WriteLine($"{c} - {d} = {c - d}");
+            Console.WriteLine($"{c} x {d} = {c * d}");
+            Console.WriteLine($"{c} / {d} = {c / d}");
+            Console.WriteLine($"{c} modulo {d} = {c % d}");
         }
     }
 }
