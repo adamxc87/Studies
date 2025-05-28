@@ -77,6 +77,15 @@ namespace Informatyka_Zajecia_IV
             int n4 = 4;
             double avg = (n1 + n2 + n3 + n4) / 4.0;
             Console.WriteLine($"The average of {n1}, {n2}, {n3}, {n4} is: {avg}");
+
+            // 10. Specified Formula with Three Numbers
+            Console.WriteLine("ZADANIE 10.");
+            int x = 5;
+            int y = 6;
+            int z = 7;
+            int result1 = (x + y) * z;
+            int result2 = x * y + y * z;
+            Console.WriteLine($"Result of specified numbers {x}, {y} and {z}, (x+y).z is {result1} and x * y + y * z is {result2}");
         }
     }
 }
