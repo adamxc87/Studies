@@ -31,6 +31,17 @@ namespace Informatyka_Zajecia_IV
             Console.WriteLine(14 + -4 * 6 / 11);
             Console.WriteLine(2 + 15 / 6 * 1 - 7 % 2);
             Console.WriteLine();
+
+            // 5. Swap Two Numbers
+            Console.WriteLine("ZADANIE 5.");
+            int a = 3;
+            int b = 5;
+            int temp = a;
+            a = b;
+            b = temp;
+            Console.WriteLine("After Swapping:");
+            Console.WriteLine("First Number: " + a);
+            Console.WriteLine("Second Number: " + b);
         }
     }
 }
